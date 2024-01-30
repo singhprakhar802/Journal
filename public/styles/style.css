@@ -1,0 +1,63 @@
+.page1,.page2 {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Classroom.jpg);
+  background-size: cover;
+  backdrop-filter: blur(2px);
+}
+
+.container{
+  background-color:rgb(61, 12, 12);
+  padding: 40px; /* Increased padding for a larger container */
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px 10px rgba(157, 152, 152, 0.1);
+  border: 5px solid rgba(212, 202, 199, 0.716); /* Facebook blue color */
+  backdrop-filter: blur(15px);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #1877f2; /* Facebook blue color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0c5185; /* Darker shade for hover effect */
+}
+.text{
+  color:white;
+}
+.Teacher{
+  margin-left: 300px;
+}
+.Teacher,.Student{
+  padding-top: 15px;
+  padding-bottom: 15p;
+  padding-left: 13px;
+  padding-right: 13px;
+  background-color: 1877f2;
+}
+.Form{
+  display: inline;
+}

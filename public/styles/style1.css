@@ -1,0 +1,12 @@
+.header{
+    background-color: rgba(0, 255, 225, 0.742);
+    margin-left: 1350px;
+    color: black;
+  }
+body{
+    background-image: url(img2.jpg);
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(15px);
+
+}
